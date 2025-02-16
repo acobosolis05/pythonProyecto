@@ -185,3 +185,7 @@ poetry.toml
 pyrightconfig.json
 
 # End of https://www.toptal.com/developers/gitignore/api/python,jupyternotebooks
+
+echo "pruebasetdatos.csv" >> .gitignore
+git add .gitignore
+git commit -m "Añadido pruebasetdatos.csv a .gitignore"
